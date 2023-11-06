@@ -1,0 +1,168 @@
+header {
+    background-color: #7cb1e2;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 70px 20px;
+}
+
+section#home {
+    background-color: #ffffff;
+}
+
+section#about {
+    background-color: #ffffff;
+}
+
+section#education {
+    background-color: #ffffff;
+}
+
+.profile-container {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+
+.about-text {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p, h2{
+    text-align: center;
+}
+
+body::before {
+    content: "";
+    display: block;
+    height: 60px;
+    margin: -60px 0 0;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-column {
+    flex-basis: 48%; /* Mengatur lebar kolom menjadi sekitar setengah dari lebar parent */
+}
+
+.education-column h3 {
+    margin-top: 0;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.education-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+}
+
+.education-column ul li {
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+li{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.box-kontak img{
+ width: 200px;
+ margin-top: 50px;
+ margin-bottom: 30px;
+}
+
+.box-kontak{
+    text-align: center;
+    color: black;
+    margin-top: auto;
+}
+
+footer {
+    background-color: #7cb1e2;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-column {
+    flex-basis: 48%;
+}
+
+.about-column h3 {
+    margin-left: 10%;
+    text-align: left;
+}
+
+.about-column p{
+    margin: 0;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.about-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-column ul li {
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
