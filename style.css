@@ -60,6 +60,13 @@ section#education {
     height: 200px;
 }
 
+.profile-container h2{
+    color: #ffffff;
+}
+
+.profile-container p{
+    color: #ffffff;
+}
 
 .about-text {
     text-align: left;
