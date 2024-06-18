@@ -1,6 +1,6 @@
 # Proyek Deploy Aplikasi Profile
 
-##Buat Bucket
+## Buat Bucket
 1. Navigation Menu → Cloud Storage → Buckets → Create Buckets
 2. Beri nama bucket sesuai keinginan → continue
 3. Pilih region → asia-southeast2 (Jakarta) → continue
