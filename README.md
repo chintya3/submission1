@@ -30,11 +30,11 @@
 
 Sebelumnya code pada project : 
 ```
-<img src="img/me.png" alt="Iqbal Image">
+<img src="img/me.png" alt="Ade Image">
 ```
 Sesudah gambar dimasukan dalam storage/bucket :
 ```
-<img src="https://storage.googleapis.com/web-portofolio-iqbal/me.png" alt="Iqbal Image">
+<img src="https://storage.googleapis.com/web-portofolio-ade/me.png" alt="Ade Image">
 ```
 Lakukan ini terhadap line code yang digunakan untuk menampilkan gambar
 
